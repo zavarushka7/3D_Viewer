@@ -1,0 +1,111 @@
+/* Основные настройки */
+* {
+    /* font-family: 'Exo 2'; */
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10pt;
+    color: #333333;
+}
+
+/* Главное окно */
+QMainWindow {
+    background-color: #fff0f5;
+    
+}
+
+/* Текст */
+QLabel, QCheckBox, QRadioButton {
+    font-size: 11pt;
+    color: #4a4a4a;
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #f8e0e8;
+    color: #333333;
+    border: 2px solid #ffb6c1;
+    border-radius: 8px;
+    padding: 6px 12px;
+    min-width: 80px;
+    font-size: 10pt;
+}
+
+QPushButton:hover {
+    background-color: #ffb6c1;
+}
+
+QPushButton:pressed {
+    background-color: #ff69b4;
+}
+
+/* Слайдеры */
+QSlider::groove:horizontal {
+    height: 8px;
+    background: #ffd1dc;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    width: 18px;
+    background: #ff69b4;
+    border-radius: 9px;
+}
+
+/* SpinBox */
+QSpinBox, QDoubleSpinBox {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #ffb6c1;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+/* Группы */
+QGroupBox {
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-size: 11pt;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px;
+}
+
+QComboBox {
+    background-color: #ffffff;
+    border: 2px solid #ffb6c1;
+    border-radius: 5px;
+
+}
+
+/* Вкладки */
+QTabWidget::pane {
+    border: 1px solid #ffb6c1;
+}
+
+QTabBar::tab {
+    background: #f8e0e8;
+    color: #333333;
+    padding: 8px;
+    font-size: 10pt;
+}
+
+QTabBar::tab:selected {
+    background: #ffb6c1;
+}
+
+/* Информационные метки */
+.info-label {
+    font-size: 12pt;
+    color: #ff69b4;
+}
+
+/* Специальные кнопки */
+.special-button {
+    background-color: #ff69b4;
+    color: white;
+}

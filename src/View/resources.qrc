@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style/fonts/Exo2-BoldItalic.ttf</file>
+        <file>style/fonts/PressStart2P-Regular.ttf</file>
+        <file>style/fonts/VT323-Regular.ttf</file>
+        <file>style/fonts/Orbitron-Regular.ttf</file>
+        <file>style/pink_theme.qss</file>
+    </qresource>
+</RCC>
